@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ArrayList from "./components/ArrayList";
+import KeyPress from "./components/KeyPress";
+import CopyToClipBoard  from "./components/CopyToClipBoard";
+import BreckPoint from "./components/BreckPoint";
+import LocalStorage from "./components/LocalStorage";
+import SessionStorage from "./components/SessionStorage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <ArrayList/> */}
+    {/* <KeyPress/> */}
+    {/* <CopyToClipBoard/> */}
+    {/* <BreckPoint/> */}
+    {/* <LocalStorage/> */}
+    {/* <SessionStorage/> */}
+    </>
+    
   );
 }
 
